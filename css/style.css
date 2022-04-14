@@ -1,6 +1,8 @@
 :root {
   --main-color: #757575;
   --secondary-color: #212121;
+  --logo-color-header: #000000;
+  --logo-color-footer: #ffffff;
 }
 
 a {
@@ -24,8 +26,6 @@ body {
 }
 
 .header-logo {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -35,12 +35,11 @@ body {
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-color-header);
 }
 
 .footer-logo {
@@ -50,7 +49,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--logo-color-header);
 }
 
 .header-list {
@@ -76,7 +75,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--logo-color-footer);
 }
 
 .section {
@@ -93,11 +92,10 @@ body {
   letter-spacing: 0.06em;
   border: #2196f3;
   background-color: #2196f3;
-  color: #ffffff;
+  color: var(--logo-color-footer);
 }
 .section-two-text {
   font-weight: 700;
-
   list-style-type: none;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -166,13 +164,9 @@ body {
 }
 
 .adress-text {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--logo-color-footer);
 }
 
 .portfolio-btn {
