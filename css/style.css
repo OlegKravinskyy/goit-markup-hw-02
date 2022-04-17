@@ -6,6 +6,7 @@
   --logo-color-left: #2196f3;
   --hero-color: #2f303a;
   --btn-hover-color: #188ce8;
+  --address-text-color: rgba(255, 255, 255, 0.6);
 }
 
 a {
@@ -187,7 +188,7 @@ body {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-text-color);
 }
 
 .portfolio-btn {
