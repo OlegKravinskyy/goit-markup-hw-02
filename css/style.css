@@ -1,8 +1,10 @@
 :root {
   --main-color: #757575;
   --secondary-color: #212121;
-  --logo-color-black: #000000;
-  --logo-color-white: #ffffff;
+  --logo-color-one: #000000;
+  --logo-color-two: #ffffff;
+  --logo-color-left: #2196f3;
+  --hero-color: #2f303a;
 }
 
 a {
@@ -55,7 +57,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--logo-color-left);
 }
 
 .logo {
@@ -64,7 +66,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--logo-color-black);
+  color: var(--logo-color-one);
 }
 
 .footer-logo {
@@ -74,7 +76,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--logo-color-white);
+  color: var(--logo-color-two);
 }
 
 .header-item {
@@ -84,8 +86,20 @@ body {
   color: var(--main-color);
 }
 
-.header-link:current {
-  color: #2196f3;
+.header-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color);
+}
+
+.current {
+  color: var(--logo-color-left);
+}
+
+/* .header-link:current {
+  color: var(--logo-color-left); */
 }
 
 .section-main {
@@ -95,11 +109,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--logo-color-white);
+  color: var(--logo-color-two);
 }
 
 .section {
-  background: #2f303a;
+  background: var(--hero-color);
 }
 
 .section-btn {
@@ -110,8 +124,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
-  color: var(--logo-color-white);
+  background-color: var(--logo-color-left);
+  color: var(--logo-color-two);
 }
 
 .section-two-text {
